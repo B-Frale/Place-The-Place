@@ -1,0 +1,44 @@
+.leaflet-container {
+    height: 600px;
+    width: 900px;
+    /*max-width: 100%;
+    max-height: 100%;*/
+}
+
+.game-container {
+    margin: 0;
+    width: 100%;
+}
+
+.place-list-btn {
+    border: solid lightgray 1px;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.place-list-btn:hover {
+    cursor:pointer;
+    border: solid darkgray 1px;
+}
+
+.place-list-btn-selected {
+    border: solid black 1px;
+}
+
+.place-list-btn-pinned {
+    background-color: lightgray;
+}
+
+.place-list-score {
+    margin-left: 0.5em;
+}
+
+#place-list {
+    padding: 0
+}
+
+.place-list-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5em;
+}
